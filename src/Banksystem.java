@@ -23,7 +23,7 @@ public class Banksystem {
     }
     private void initBankSystem() {
         try {
-            customers = new ArrayList<>(); // Initialize the list before deserialization
+            customers = new ArrayList<>();
             customers.addAll(IO.deserializeFromFile(memberFile));
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
