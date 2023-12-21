@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.List;
 public class Banksystem {
-    //private final String memberFile = "src/persons.ser";
+
     private static Banksystem instance;
     private static File memberFile = new File("src/Customer.ser");
     private final String logInBirth = "Personnummer: ";

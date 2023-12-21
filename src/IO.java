@@ -21,7 +21,7 @@ public class IO {
     public static List<Customer> deserializeFromFile(File file) throws IOException, ClassNotFoundException {
         List<Customer> personsFromFile;
         if (!file.exists()) {
-            // Handle the case where the file doesn't exist, e.g., create a new list
+
             personsFromFile = new ArrayList<>();
         } else {
             ObjectInputStream ois = new ObjectInputStream(new FileInputStream(file));
